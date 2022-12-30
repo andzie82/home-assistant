@@ -184,7 +184,7 @@
       slave: !secret com.victronenergy.vebus
       address: 31
       data_type: uint16
-      # Inverter States, 0=Off;1=Low Power;2=Fault;3=Bulk;4=Absorption;5=Float;6=Storage;7=Equalize;8=Passthru;9=Inverting;10=Power assist;11=Power supply;252=Bulk protection
+      unit_of_measurement: "0=Off;1=Low Power;2=Fault;3=Bulk;4=Absorption;5=Float;6=Storage;7=Equalize;8=Passthru;9=Inverting;10=Power assist;11=Power supply;252=Bulk protection"
 
 #Alarm Sensors
     - name: 'Grid lost alarm'
